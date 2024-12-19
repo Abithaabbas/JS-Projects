@@ -81,29 +81,6 @@ A modern web browser (Google Chrome, Firefox, etc.)
 
 Basic knowledge of HTML, CSS, and JavaScript
 
-Folder Structure
-
-JS-Projects/
-  |-- weather-app/
-  |     |-- index.html
-  |     |-- style.css
-  |     |-- script.js
-  |
-  |-- counter-app/
-  |     |-- index.html
-  |     |-- style.css
-  |     |-- script.js
-  |
-  |-- to-do-list/
-  |     |-- index.html
-  |     |-- style.css
-  |     |-- script.js
-  |
-  |-- quiz-app/
-        |-- index.html
-        |-- style.css
-        |-- script.js
-
 ## Technologies Used
 
 HTML: For structuring the web pages
