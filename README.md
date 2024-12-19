@@ -5,9 +5,11 @@ Welcome to the JS Projects repository! This collection showcases a variety of Ja
 
 # Weather App
 
-## Description: A simple weather application that fetches real-time weather data using APIs. Users can search for weather updates by city name.
+## Description: 
+A simple weather application that fetches real-time weather data using APIs. Users can search for weather updates by city name.
 
-## Technologies Used: HTML, CSS, JavaScript, APIs
+## Technologies Used: 
+HTML, CSS, JavaScript, APIs
 
 ## Features:
 
@@ -19,9 +21,11 @@ Interactive and user-friendly UI
 
 # Counter App
 
-## Description: A counter app that allows users to increment and save previous counts.
+## Description: 
+A counter app that allows users to increment and save previous counts.
 
-## Technologies Used: HTML, CSS, JavaScript
+## Technologies Used: 
+HTML, CSS, JavaScript
 
 ## Features:
 
@@ -31,9 +35,11 @@ Display of saved counts
 
 # To-Do List
 
-## Description: A dynamic To-Do List app to keep track of daily tasks.
+## Description: 
+A dynamic To-Do List app to keep track of daily tasks.
 
-## Technologies Used: HTML, CSS, JavaScript
+## Technologies Used: 
+HTML, CSS, JavaScript
 
 ## Features:
 
@@ -45,9 +51,11 @@ User-friendly interface
 
 # Quiz App
 
-## Description: An interactive quiz application with multiple-choice questions.
+## Description: 
+An interactive quiz application with multiple-choice questions.
 
-## Technologies Used: HTML, CSS, JavaScript
+## Technologies Used: 
+HTML, CSS, JavaScript
 
 ## Features:
 
