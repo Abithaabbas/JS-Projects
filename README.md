@@ -1,10 +1,9 @@
 # JS Projects
-
 Welcome to the JS Projects repository! This collection showcases a variety of JavaScript projects, each designed to strengthen core concepts and build practical development skills.
 
-Projects Included
+## Projects Included
 
-Weather App
+# Weather App
 
 Description: A simple weather application that fetches real-time weather data using APIs. Users can search for weather updates by city name.
 
@@ -18,7 +17,7 @@ City-based search functionality
 
 Interactive and user-friendly UI
 
-Counter App
+# Counter App
 
 Description: A counter app that allows users to increment and save previous counts.
 
@@ -30,7 +29,7 @@ Increment functionality
 
 Display of saved counts
 
-To-Do List
+# To-Do List
 
 Description: A dynamic To-Do List app to keep track of daily tasks.
 
@@ -44,7 +43,7 @@ Mark tasks as complete
 
 User-friendly interface
 
-Quiz App
+# Quiz App
 
 Description: An interactive quiz application with multiple-choice questions.
 
@@ -58,7 +57,7 @@ Real-time score tracking
 
 Attractive design with a playful, girly theme
 
-Getting Started
+# Getting Started
 
 To get a local copy of these projects up and running, follow these steps:
 
@@ -76,13 +75,13 @@ Open the project folder.
 
 Click on the HTML file (e.g., index.html) to view it in your browser.
 
-Prerequisites
+# Prerequisites
 
 A modern web browser (Google Chrome, Firefox, etc.)
 
 Basic knowledge of HTML, CSS, and JavaScript
 
-Folder Structure
+# Folder Structure
 
 JS-Projects/
   |-- weather-app/
@@ -105,7 +104,7 @@ JS-Projects/
         |-- style.css
         |-- script.js
 
-Technologies Used
+# Technologies Used
 
 HTML: For structuring the web pages
 
@@ -115,7 +114,7 @@ JavaScript: For adding interactivity and functionality
 
 APIs: Used in the Weather App for fetching real-time weather data
 
-How to Contribute
+# How to Contribute
 
 Contributions are welcome! To contribute:
 
@@ -129,11 +128,12 @@ Push to the branch (git push origin feature/your-feature-name).
 
 Open a pull request.
 
-Contact
+# Contact
 
 If you have any questions, feel free to reach out!
 
-GitHub: Abithaabbas
+GitHub: [Abitha Abbas](https://github.com/Abithaabbas/)
+
 
 Happy Coding! 🚀
 
