@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="input-box">
+            <input type="text" id="display" onkeyup="cal(event)">
+        </div>
+        <div id="AC-row">
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick="deleteLast()">Del</button>
+            <button onclick="getValue(event)">%</button>
+            <button onclick="getValue(event)">+</button>
+        </div>
+        <div id="sev-row">
+            <button onclick="getValue(event)">7</button>
+            <button onclick="getValue(event)">8</button>
+            <button onclick="getValue(event)">9</button>
+            <button onclick="getValue(event)">-</button>
+        </div>
+        <div id="six-row">
+            <button onclick="getValue(event)">4</button>
+            <button onclick="getValue(event)">5</button>
+            <button onclick="getValue(event)">6</button>
+            <button onclick="getValue(event)">*</button>
+        </div>
+        <div id="three-row">
+            <button onclick="getValue(event)">3</button>
+            <button onclick="getValue(event)">2</button>
+            <button onclick="getValue(event)">1</button>
+            <button onclick="getValue(event)">÷</button>
+        </div>
+        <div id="zero-row">
+            <button onclick="getValue(event)">00</button>
+            <button onclick="getValue(event)">0</button>
+            <button onclick="getValue(event)">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script>
+        const inputBox = document.getElementById("display");
+
+        try{
+            function getValue(event) {
+            inputBox.value += event.target.textContent;
+        }
+
+        function clearDisplay() {
+            inputBox.value = "";
+        }
+
+        function deleteLast() {
+            inputBox.value = inputBox.value.slice(0, -1);
+        }
+
+        
+        }
+        catch(error){
+            inputBox.value = "Not a valid Syntax"
+        }
+
+        function calculate() {
+            try {
+                inputBox.value = eval(inputBox.value.replace("÷", "/").replace("%", "/100"));
+            } catch (error) {
+                inputBox.value = "Enter a valid syntax";
+            }
+        }
+
+        function cal(){
+            if(event.keyCode == 13){
+                try{
+                inputBox.value = eval(inputBox.value.replace("÷", "/").replace("%", "/100"));
+            }
+            catch(error){
+                inputBox.value = "Enter a valid syntax";
+            }
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #eff6e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+#container {
+    background-color: #081c15;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#input-box {
+    margin-bottom: 10px;
+}
+
+#container div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bolder;
+    width: 60px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-top: 3px;
+    flex: 1 1 23%; 
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 400px) {
+    #container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1em;
+    }
+
+    input {
+        font-size: 1em;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 300px) {
+    button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    input {
+        font-size: 0.9em;
+    }
+}
