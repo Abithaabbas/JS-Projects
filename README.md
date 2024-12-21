@@ -57,6 +57,32 @@ Real-time score tracking
 
 Attractive design with a playful theme
 
+## Password Generator
+
+Description: A secure password generator that creates random passwords based on user preferences.
+
+Technologies Used: HTML, CSS, JavaScript
+
+Features:
+
+Customizable password length
+
+Option to include numbers, symbols, and uppercase letters
+
+Copy-to-clipboard functionality
+
+## Calculator
+
+Description: A basic calculator that performs arithmetic operations.
+
+Technologies Used: HTML, CSS, JavaScript
+
+Features:
+
+Addition, subtraction, multiplication, and division
+
+Responsive and simple UI
+
 ## Getting Started
 
 To get a local copy of these projects up and running, follow these steps:
